@@ -123,7 +123,7 @@ int mygreptest(char* pattern, char* filename){
 
 int main(int argc, char *argv[]) {
 
-  mygreptest(argv[1],argv[2]);
+  //mygreptest(argv[1],argv[2]);
 
   char *p1, *p2;
   	argv++;
@@ -195,7 +195,7 @@ void commands() {
 
 	case 'g':
 		global(1);
-    break;
+    continue;
 
 	case 'p':
 	case 'P':
